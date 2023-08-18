@@ -5,6 +5,7 @@ const check = document.getElementById("check-answer");
 const trueFalseContainer = document.querySelector(".true-or-false");
 const reset = document.getElementById("reset");
 const result = document.querySelector(".result");
+const unknownList = document.getElementsByTagName('ol')[0]; 
 
 let anahtarlar = Object.keys(sozluk);
 
@@ -15,8 +16,7 @@ let ornekler;
 let trueOrFalse = [0, 0];
 
 submit.addEventListener("click", () => {
-  if (isWordDisplayed) {
-    // Eğer bir kelime zaten gösterildiyse, cevabı kontrol et.
+  if (isWordDisplayed) { // Eğer bir kelime zaten gösterildiyse, cevabı kontrol et.
     checkSubmit(selectedWordValue); // Seçilen kelimenin değerini fonksiyona aktar
     answer.value = "";
     isWordDisplayed = false;
@@ -26,6 +26,7 @@ submit.addEventListener("click", () => {
       selectedWordValue +
       "<br><br>Örnek Cümle: " +
       (Array.isArray(ornekler) ? ornekler.join("<br>") : ornekler);
+
   } else {
     if (anahtarlar.length === 0) {
       check.innerHTML = "Tüm kelimeler gösterildi!";
@@ -66,6 +67,8 @@ function checkSubmit(correctValue) {
     check.innerHTML = "YANLIŞ";
     check.style.color = "#e76f51";
     trueOrFalse[1]++;
+    addWrongWord(word.textContent);
+    
   }
 }
 
@@ -81,6 +84,9 @@ reset.addEventListener("click", () => {
   isWordDisplayed = false;
   selectedWordValue = null;
   trueOrFalse = [0, 0];
+  unknownList.innerHTML = '';
+  result.innerHTML = "";
+
 
   // Ekranı başlangıç durumuna getir
   word.innerHTML = "";
@@ -93,3 +99,9 @@ reset.addEventListener("click", () => {
   // Anahtarlar listesini yeniden oluştur
   anahtarlar = Object.keys(sozluk);
 });
+
+function addWrongWord(wrongWord) {
+  let listItem = document.createElement('li');
+  listItem.textContent = wrongWord;
+  unknownList.appendChild(listItem);
+}

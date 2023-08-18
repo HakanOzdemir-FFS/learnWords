@@ -68,7 +68,7 @@ const sozluk = {
     "ornekCumleler": ["When it’s autumn, you can see fallen leaves everywhere."]
   },
   "confused": {
-    "anlamlar": ["kafası karışmış"],
+    "anlamlar": ["kafası karışmış","kafası karışmak"],
     "ornekCumleler": ["I’m totally confused. Could you explain that again?"]
   },
   "hidden": {
@@ -156,27 +156,47 @@ const sozluk = {
     "ornekCumleler": [""]
   },
   "fancy": {
-    "anlamlar" : ["canı istemek"],
+    "anlamlar" : ["canı istemek", "istemek"],
     "ornekCumleler": ["i fancy her"]
   },
   "useful" : {
     "anlamlar" : ["faydalı"],
-    "ornekCumleler": [],
+    "ornekCumleler": []
   },
   "entire" : {
-    "anlamlar" : ["bütün", "tüm", "tamamı"],
-    "ornekCumleler": [],
+    "anlamlar" : ["bütün", "tüm", "tamamı","hepsi"],
+    "ornekCumleler": []
   },
   "significant" : {
     "anlamlar" : ["kayda değer", "önemli"],
-    "ornekCumleler": [],
+    "ornekCumleler": []
   },
   "stock" : {
     "anlamlar" : ["stok","hisse","tahvil"],
-    "ornekCumleler": [],
+    "ornekCumleler": []
   },
   "stock market" : {
     "anlamlar" : ["borsa"],
-    "ornekCumleler": [],
+    "ornekCumleler": []
   },
-};
+  "convenient" : {
+    "anlamlar" : ["uygun","kullanışlı"],
+    "ornekCumleler": ["A bicycle is often more convenient than a car in towns."]
+  },
+  "idea" : {
+    "anlamlar" : ["fikir"],
+    "ornekCumleler": ["i have a very good idea.Why don't we go to fishing at the weekend?"]
+  },
+  "controversial" : {
+    "anlamlar" : ["tartışmalı", "çok tartışılan"],
+    "ornekCumleler": ["I tried to avoid controversial topics such as politics and religion."]
+  },
+  "found" : {
+    "anlamlar" : ["kurmak", "tesis etmek"],
+    "ornekCumleler": ["The company was founded back in 1947."]
+  },
+  "admire" : {
+    "anlamlar" : ["takdir etmek"],
+    "ornekCumleler": ["I admire my father; he has done everything to bring us up."]
+}
+}

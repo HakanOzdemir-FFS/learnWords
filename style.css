@@ -18,8 +18,8 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 100rem;
-  height: 50rem;
+  width: 110rem;
+  height: 60rem;
   background: linear-gradient(to right, #80ed99, #457b9d);
   transform: translate(-50%, -50%);
   display: flex;
@@ -100,4 +100,16 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.unknown-words{
+  width: 20rem;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  font-size: 2rem;
+  color: white;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: .5rem;
 }
