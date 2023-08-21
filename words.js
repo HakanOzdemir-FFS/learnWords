@@ -149,11 +149,11 @@ const sozluk = {
   },
   "in view of": {
     "anlamlar": ["göz önüne almak"],
-    "ornekCumleler": [""]
+    "ornekCumleler": ["In view of our financial situation, we can’t go on a holiday this year."]
   },
   "reveal": {
     "anlamlar": ["ortaya çıkarmak", "ifşa etmek"],
-    "ornekCumleler": [""]
+    "ornekCumleler": ["The journalist refused to reveal her sources."]
   },
   "fancy": {
     "anlamlar" : ["canı istemek", "istemek"],
@@ -161,23 +161,23 @@ const sozluk = {
   },
   "useful" : {
     "anlamlar" : ["faydalı"],
-    "ornekCumleler": []
+    "ornekCumleler": ["Thank you! You have been very useful."]
   },
   "entire" : {
     "anlamlar" : ["bütün", "tüm", "tamamı","hepsi"],
-    "ornekCumleler": []
+    "ornekCumleler": ["The entire country was against war"]
   },
   "significant" : {
     "anlamlar" : ["kayda değer", "önemli"],
-    "ornekCumleler": []
+    "ornekCumleler": ["A significant number of drivers fail to keep to speed limits."]
   },
   "stock" : {
     "anlamlar" : ["stok","hisse","tahvil"],
-    "ornekCumleler": []
+    "ornekCumleler": ["Buy now while stocks last!"]
   },
   "stock market" : {
     "anlamlar" : ["borsa"],
-    "ornekCumleler": []
+    "ornekCumleler": ["Some people can earn money on stock market but most of them lose."]
   },
   "convenient" : {
     "anlamlar" : ["uygun","kullanışlı"],
@@ -198,5 +198,62 @@ const sozluk = {
   "admire" : {
     "anlamlar" : ["takdir etmek"],
     "ornekCumleler": ["I admire my father; he has done everything to bring us up."]
-}
+},
+"embrace" : {
+  "anlamlar" : ["kucaklamak","benimsemek","kabul etmek","kabullenmek"],
+  "ornekCumleler": ["Anna embraced her child with both arms."]
+},
+"embrace" : {
+  "anlamlar" : ["kucaklamak","benimsemek","kabul etmek","kabullenmek"],
+  "ornekCumleler": ["Anna embraced her child with both arms."]
+},
+"for instance" : {
+  "anlamlar" : ["örneğin","mesela"],
+  "ornekCumleler": ["You cannot trust her; for instance, she arrived an hour late for an important meeting  yesterday"]
+},
+"pursue" : {
+  "anlamlar" : ["sürdürmek","peşine düşmek"],
+  "ornekCumleler": ["You need to pursue chasing your dreams."]
+},
+"neutral" : {
+  "anlamlar" : ["tarafsız"],
+  "ornekCumleler": ["I always tried to remain neutral when they started arguing."]
+},
+"abandon" : {
+  "anlamlar" : ["terk etmek","bırakmak"],
+  "ornekCumleler": ["How could she abandon her own child?"]
+},
+"abandon" : {
+  "anlamlar" : ["terk etmek","bırakmak"],
+  "ornekCumleler": ["How could she abandon her own child?"]
+},
+"conduct" : {
+  "anlamlar" : ["yönetmek","yürütmek"],
+  "ornekCumleler": ["The orchestra is conducted by John Williams."]
+},
+"straight" : {
+  "anlamlar" : ["düz","direkt"],
+  "ornekCumleler": ["I went straight up to bed.","Terry was so tired he couldn’t walk straight."]
+},
+"court" : {
+  "anlamlar" : ["mahkeme"],
+  "ornekCumleler": ["We will see about that in the court."]
+},
+"passage" : {
+  "anlamlar" : ["paragraf","geçit","geçiş"],
+  "ornekCumleler": ["Read the passage and answer the questions accordingly.","He was guaranteed safe passage to the country."]
+},
+"(in) vain" : {
+  "anlamlar" : ["boşuna"],
+  "ornekCumleler": ["Police have spent hours searching in vain for the missing teenager."]
+},
+"revelant" : {
+  "anlamlar" : ["konuyla ilgili", "bağlantılı"],
+  "ornekCumleler": ["How is this relevant to the topic?"]
+},
+"irrevelant" : {
+  "anlamlar" : ["ilgisiz", "alakasız"],
+  "ornekCumleler": ["Her comments seemed irrelevant to the real issue."]
+},
+
 }

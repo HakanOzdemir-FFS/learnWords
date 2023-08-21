@@ -31,7 +31,7 @@ html {
   position: relative;
 }
 
-#submit,#reset {
+#submit,#reset,#practice {
   width: 20rem;
   height: 5rem;
   color: white;
@@ -46,13 +46,19 @@ html {
   box-shadow: 0 .5rem 1rem black;
 }
 
-#submit:active, #reset:active{
+#submit:active, #reset:active, #practice:active{
   transform: translateY(.3rem);
   box-shadow: 0 .25rem 0.5rem black;
 }
 #reset{
   width: 15rem;
   margin-left: 2rem;
+}
+
+#practice{
+  width: 20rem;
+  margin-bottom: 2rem;
+  display: none;
 }
 
 #answer{
@@ -109,7 +115,15 @@ html {
   top: 10%;
   font-size: 2rem;
   color: white;
-  text-align: justify;
-  background-color: rgba(0, 0, 0, 0.2);
   border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
 }
+
+.unknown-words-list{
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: justify;
+}
+
